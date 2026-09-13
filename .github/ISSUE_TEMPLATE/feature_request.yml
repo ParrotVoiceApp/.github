@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         English and 中文 are welcome. Search existing requests before opening a new one.
-        For open-source interest, add a 👍 to https://github.com/ParrotVoiceApp/bridge/issues/2 instead of opening a duplicate request.
+        For open-source interest, add a 👍 to https://github.com/ParrotVoiceApp/firmware/issues/2 instead of opening a duplicate request.
   - type: textarea
     id: problem
     attributes:

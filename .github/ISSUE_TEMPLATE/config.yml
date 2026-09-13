@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Vote to open-source ParrotVoice
-    url: https://github.com/ParrotVoiceApp/bridge/issues/2
+    url: https://github.com/ParrotVoiceApp/firmware/issues/2
     about: Add a 👍 to the shared vote for firmware and bridge source publication.
   - name: Setup and troubleshooting documentation
     url: https://parrotvoice.app/docs/
