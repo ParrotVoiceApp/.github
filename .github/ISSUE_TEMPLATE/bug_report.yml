@@ -1,0 +1,67 @@
+name: Report a bug
+description: Report a firmware, bridge, Bluetooth, call, or Console problem.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        All ParrotVoice feedback belongs here, including firmware and browser bridge issues.
+        English and 中文 are welcome. Search existing issues first and remove private information from diagnostics.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did you notice the problem?
+      options:
+        - ESP32 firmware or flashing
+        - Browser bridge or USB connection
+        - Bluetooth pairing or phone connection
+        - Call audio or call controls
+        - Console or assistant setup
+        - MCP integration
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+      description: Describe the problem and include any error code shown.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Connect...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Your setup
+      description: Include what you know; leave unavailable details as unknown.
+      value: |
+        - ESP32 board model:
+        - Firmware version:
+        - Bridge version:
+        - Computer operating system and Chrome version:
+        - Phone model and operating system:
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Screenshots or redacted diagnostics
+      description: If the Bridge shows an error, use Details → Copy diagnostics. Remove keys, tokens, phone numbers, and private call content before sharing.
+    validations:
+      required: false
