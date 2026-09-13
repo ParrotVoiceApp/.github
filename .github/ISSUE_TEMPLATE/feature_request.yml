@@ -1,0 +1,29 @@
+name: Suggest an improvement
+description: Share an idea for the device, firmware, bridge, or calling experience.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English and 中文 are welcome. Search existing requests before opening a new one.
+        For open-source interest, add a 👍 to https://github.com/ParrotVoiceApp/firmware/issues/2 instead of opening a duplicate request.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Tell us what you are trying to do and what gets in the way.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or additional context
+    validations:
+      required: false
