@@ -1,7 +1,19 @@
 # ParrotVoice community configuration
 
-The public project is **[ParrotVoice Firmware](https://github.com/ParrotVoiceApp/firmware)**. Visit it for the product overview, firmware and bridge setup, bug reports, and the open-source vote.
+This repository maintains the ParrotVoice organization profile and shared GitHub issue forms.
 
-This repository holds the GitHub organization profile and shared issue forms. It is not a separate product or feedback tracker.
+Product questions, feature requests and bugs belong in the relevant product tracker. All product trackers share the [Parrot Roadmap](https://github.com/orgs/ParrotVoiceApp/projects/1).
 
-[Website](https://parrotvoice.app) · [Main project](https://github.com/ParrotVoiceApp/firmware) · [Report a bug](https://github.com/ParrotVoiceApp/firmware/issues/1) · [Open-source vote](https://github.com/ParrotVoiceApp/firmware/issues/2)
+## Product trackers
+
+| Repository                                                               | Responsibility                                                       |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| [Parrot Protocol](https://github.com/ParrotVoiceApp/ParrotProtocol)      | Connection protocol, Bridge integrations and embedded device support |
+| [Firmware](https://github.com/ParrotVoiceApp/Firmware)                   | ESP32 firmware, Bluetooth and phone compatibility                    |
+| [Parrot Service](https://github.com/ParrotVoiceApp/ParrotService)        | Cloud calling, accounts, devices, Console and Web Phone              |
+| [Parrot Windows App](https://github.com/ParrotVoiceApp/ParrotWindowsApp) | Windows setup, updates and desktop experience                        |
+| [Parrot Docs](https://github.com/ParrotVoiceApp/ParrotDocs)              | User guides, troubleshooting and documentation feedback              |
+| [Parrot MCP](https://github.com/ParrotVoiceApp/ParrotMCP)                | Agent integrations, skills and marketplace availability              |
+| [Firmware Flasher](https://github.com/ParrotVoiceApp/FirmwareFlasher)    | Firmware installation, updates and recovery                          |
+
+[Website](https://parrotvoice.app) · [Documentation](https://parrotvoice.app/docs/) · [Feedback guide](https://github.com/ParrotVoiceApp/Firmware/issues/1)
